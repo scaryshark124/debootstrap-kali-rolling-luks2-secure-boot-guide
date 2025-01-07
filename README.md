@@ -596,6 +596,7 @@ root@debian:/# sed -i 's|#GRUB_ENABLE_CRYPTODISK=y|GRUB_ENABLE_CRYPTODISK=y|g' /
 ```
 I will make a new grub config file:
 ```
+root@debian:/# grub-mkconfig -o /boot/grub/grub.cfg
 Generating grub configuration file ...
 Found theme: /boot/grub/themes/kali/theme.txt
 Found linux image: /boot/vmlinuz-6.11.2-amd64
