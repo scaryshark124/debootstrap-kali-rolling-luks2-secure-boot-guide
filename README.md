@@ -1,4 +1,4 @@
-# Build Kali Linux using debootstrap with luks2 (Argon2id) and Secure Boot Guide
+# Build Kali Linux (kali-rolling) using debootstrap with luks2 (Argon2id) and Secure Boot Guide
 I will demonstrate how to use debootstrap to build kali Linux on a USB thumb drive. While in chroot, I will demonstrate how to compile grub2 with ArchLinux's grub-improved-luks2 that allows me to encrypt the root system with argon2id password hashing algorithm. Lastly, I will demonstrate how to create machine owner key (MOK) to sign grub bootloader and vmlinuz.
 
 ### What you need:
